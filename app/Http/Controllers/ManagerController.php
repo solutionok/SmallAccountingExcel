@@ -32,7 +32,7 @@ class ManagerController extends Controller
             'hours'             => 'Hours',
 
             'agent_selection'   => 'AgentSelection',
-            'sales_manages'     => 'SalesManagers',
+            'sales_managers'     => 'SalesManagers',
             'manager'           => 'Manager',
             'job_types'         => 'JobTypes',
             'houses'            => 'Houses',
@@ -60,7 +60,7 @@ class ManagerController extends Controller
             }
         }
 
-        return back()->with(['success'=>'Updated successfully']);
+        // return back()->with(['success'=>'Updated successfully']);
     }
 
     public function uploadCSV(Request $request){

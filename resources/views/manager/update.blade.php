@@ -76,7 +76,7 @@
                             <div class="form-group">
                                 <label class="col-sm-4 control-label">Sales Managers </label>
                                 <div class="col-sm-8">
-                                    <input type="file" name="sales_manages" style="display:inline;">
+                                    <input type="file" name="sales_managers" style="display:inline;">
                                     <input type="submit" class="btn btn-primary " value="Update Table" />
                                 </div>
                             </div>
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                        
+
             </form>
         </div>
     </div>
@@ -162,7 +162,7 @@
             $('input[type="file"]').each(function(i, el){
                 if(el.value)valid = true;
             })
-            
+
             return valid;
         })
     })
