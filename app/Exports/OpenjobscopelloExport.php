@@ -15,7 +15,6 @@ class OpenjobscopelloExport implements FromCollection, WithHeadings
     public function collection()
     {
         $bb = Openjobscopello::get();
-        if(!$bb->count())return null;
         foreach($bb as &$r){
             $r->DateEntered = LT2IT($r->DateEntered);
             $r->StartDateRequest = LT2IT($r->StartDateRequest);
