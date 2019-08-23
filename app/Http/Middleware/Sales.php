@@ -13,8 +13,7 @@ class Sales
      * @param  \Closure  $next
      * @return mixed
      */
-    public function handle($request, Closure $next)
-    {
+    public function handle($request, Closure $next){
         if(session('sales')){
             return $next($request);
         }

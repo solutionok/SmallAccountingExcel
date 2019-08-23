@@ -12,7 +12,9 @@
 @section('content')
 
 <div class="wow fadeInUp">
+
     <div class="panel">
+        
         <div class="panel-heading">
             <h2 class="mt-none mb-none">Customers</h2>
             <div class="panel-actions">

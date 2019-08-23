@@ -11,10 +11,9 @@ class Worker
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \Closure  $next
-     * @return mixed
+     * @return mixed.
      */
-    public function handle($request, Closure $next)
-    {
+    public function handle($request, Closure $next){
         if(session('worker')){
             return $next($request);
         }

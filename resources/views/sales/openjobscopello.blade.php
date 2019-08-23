@@ -10,6 +10,7 @@
 </style>
 @endsection
 @section('content')
+
 <div class="wow fadeInUp">
     <div class="panel">
         <div class="panel-heading">

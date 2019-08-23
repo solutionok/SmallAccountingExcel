@@ -30,6 +30,7 @@
     <body>
         <!-- start: page -->
         <section class="body-sign">
+            
             <div class="center-sign">
                 <a href="/" class="logo pull-left">
                     <img src="{{url('/public')}}/assets/images/logo_sales.png" height="54"/>

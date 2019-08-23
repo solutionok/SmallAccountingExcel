@@ -12,8 +12,11 @@
 @section('content')
 
 <div class="wow fadeInUp">
+
     <div class="panel">
+
         <div class="panel-heading">
+            
             <h2 class="mt-none mb-none">Customers</h2>
             <div class="panel-actions">
                 <button onclick="location.href = '{{url('sales/customers')}}'" class="btn btn-primary btn-sm"><i class="fa fa-backward"></i> Back</button>

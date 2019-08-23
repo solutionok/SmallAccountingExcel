@@ -10,6 +10,7 @@
 </style>
 @endsection
 @section('content')
+
 <!--========================== Typing Section============================-->
 <div class="wow fadeInUp">
     <div class="panel">

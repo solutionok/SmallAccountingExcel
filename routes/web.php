@@ -18,7 +18,7 @@ Route::view('/', 'deny');
 
 Auth::routes();
 
-//////////////////////// manager pakage ///////////////////////////////////
+//////////////////////// manager pakage ////////////////////////////////////////////////////////////////////////////
 Route::get('/manager', 'ManagerController@index')->name('ManagerIndex');
 Route::post('/manager/do-login', 'ManagerController@doLogin');
 Route::get('/manager/logout', 'ManagerController@logout');

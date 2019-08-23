@@ -21,15 +21,11 @@ use App\Exports\CustomersExport;
 use App\Exports\HoursExport;
 use App\Exports\OpenjobscopelloExport;
 
-
-
-
-
 class SalesController extends Controller
 {
 
     /////////////////////////////////////////////////////////////////////////////
-    // update functions
+    // update functions.
     /////////////////////////////////////////////////////////////////////////////
     public function update(){
         return view('sales.update');

@@ -19,9 +19,9 @@ class AgentController extends Controller
 {
 
     /////////////////////////////////////////////////////////////////////////////
-    // jobs functions
+    // jobs functions.
     /////////////////////////////////////////////////////////////////////////////
-    public function savejob(Request $request){
+    public function savejob(Request $request) {
         $data = $request->input();
         foreach(dateColNames('openjobscopello') as $c){
             if(isset($data[$c])){

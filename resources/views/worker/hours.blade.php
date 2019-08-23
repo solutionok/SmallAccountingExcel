@@ -12,6 +12,7 @@
 
 <!--========================== Typing Section============================-->
 <div class="wow fadeInUp">
+    
     <div class="panel">
         <div class="panel-heading">
             <h2 class="mt-none mb-none">Hours</h2>

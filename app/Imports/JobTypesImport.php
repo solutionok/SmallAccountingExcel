@@ -20,8 +20,7 @@ class JobTypesImport implements ToModel, WithHeadingRow, WithEvents
     use Importable, RegistersEventListeners;
 
     private $columns = null;
-    public function __construct()
-    {
+    public function __construct() {
         $this->columns = Schema::getColumnListing('job_types');
     }
 

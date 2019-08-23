@@ -20,12 +20,12 @@ use App\Models\Hours;
 class WorkerController extends Controller
 {
     
-    
     public function hours(Request $request){
         $data = [];
 
         return view('worker.hours', $data);
     }
+    
     public function hoursWeek(Request $request, $week){
         $sp = explode('_', $week);
         $y = $sp[0];
